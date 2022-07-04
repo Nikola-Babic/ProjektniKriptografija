@@ -1,0 +1,4 @@
+V	220218193614Z		01	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=ETF/CN=a/emailAddress=aaaaa
+V	220218193645Z		02	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=ETF/CN=b/emailAddress=bbbbb
+V	180221011056Z		03	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=ETF/CN=PogresanDatum/emailAddress=wrong@date
+R	220221201733Z	210221202758Z,keyCompromise	04	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=ETF/CN=revoke/emailAddress=revoke@revoke

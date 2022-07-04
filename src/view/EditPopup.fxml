@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="450.0" prefWidth="450.0" style="-fx-border-color: teal; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EditController">
+   <children>
+      <Text layoutX="186.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EDIT TEXT FILE" />
+      <TextField fx:id="fileNameBox" layoutX="82.0" layoutY="51.0" prefHeight="25.0" prefWidth="234.0" />
+      <TextArea fx:id="fileText" layoutX="16.0" layoutY="89.0" prefHeight="276.0" prefWidth="417.0" />
+      <Text layoutX="16.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FILE NAME:" />
+      <Button fx:id="openBtn" layoutX="334.0" layoutY="51.0" mnemonicParsing="false" onAction="#openFile" prefHeight="25.0" prefWidth="99.0" text="OPEN FILE" />
+      <Button fx:id="saveBtn" layoutX="187.0" layoutY="391.0" mnemonicParsing="false" onAction="#editTXT" prefHeight="25.0" prefWidth="77.0" text="SAVE" />
+   </children>
+</AnchorPane>

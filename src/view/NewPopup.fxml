@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.NewController">
+   <children>
+      <TextField fx:id="fileName" layoutX="36.0" layoutY="21.0" promptText="FileName" />
+      <TextArea fx:id="fileText" layoutX="36.0" layoutY="56.0" prefHeight="200.0" prefWidth="200.0" promptText="Enter text here!" />
+      <Button fx:id="saveBtn" layoutX="114.0" layoutY="262.0" mnemonicParsing="false" onAction="#saveFile" prefHeight="25.0" prefWidth="68.0" text="SAVE" />
+      <ComboBox fx:id="combo1" layoutX="274.0" layoutY="56.0" prefWidth="150.0" promptText="Select crypt" />
+      <ComboBox fx:id="combo2" layoutX="274.0" layoutY="99.0" prefWidth="150.0" promptText="Select hash" />
+   </children>
+</AnchorPane>

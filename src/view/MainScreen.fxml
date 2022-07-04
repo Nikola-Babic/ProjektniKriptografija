@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Button fx:id="newBtn" layoutX="405.0" layoutY="21.0" mnemonicParsing="false" onAction="#newFile" prefHeight="25.0" prefWidth="85.0" text="NEW" AnchorPane.topAnchor="30.0" />
+      <Button fx:id="uploadBtn" layoutX="405.0" layoutY="55.0" mnemonicParsing="false" onAction="#upload" prefHeight="25.0" prefWidth="85.0" text="UPLOAD" AnchorPane.topAnchor="60.0" />
+      <Button fx:id="downloadBtn" layoutX="405.0" layoutY="92.0" mnemonicParsing="false" onAction="#download" prefHeight="25.0" prefWidth="85.0" text="DOWNLOAD" AnchorPane.topAnchor="90.0" />
+      <Button fx:id="editBtn" layoutX="405.0" layoutY="115.0" mnemonicParsing="false" onAction="#editTXT" prefHeight="25.0" prefWidth="85.0" text="EDIT" AnchorPane.topAnchor="120.0" />
+      <Button fx:id="deleteBtn" layoutX="405.0" layoutY="145.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="85.0" text="DELETE" AnchorPane.topAnchor="150.0" />
+      <Button fx:id="openFileBtn" layoutX="371.0" layoutY="495.0" mnemonicParsing="false" onAction="#openFile" prefHeight="25.0" prefWidth="119.0" text="OPEN FILE" />
+      <Button fx:id="shareBtn" layoutX="405.0" layoutY="185.0" mnemonicParsing="false" onAction="#shareFile" prefHeight="25.0" prefWidth="85.0" text="SHARE" AnchorPane.topAnchor="180.0" />
+      <Button fx:id="viewBtn" layoutX="405.0" layoutY="221.0" mnemonicParsing="false" onAction="#viewShare" prefHeight="25.0" prefWidth="85.0" text="VIEW SHARE" AnchorPane.topAnchor="210.0" />
+      <Button fx:id="showDirectoryBtn" layoutX="371.0" layoutY="455.0" mnemonicParsing="false" onAction="#openDirectory" prefHeight="25.0" prefWidth="119.0" text="ENTER DIRECTORY" />
+      <TextField fx:id="showDirectoryTXT" layoutX="22.0" layoutY="455.0" prefHeight="25.0" prefWidth="253.0" promptText="Directory Name" />
+      <Button fx:id="showBtn" layoutX="405.0" layoutY="243.0" mnemonicParsing="false" onAction="#showDirectoryContent" prefHeight="64.0" prefWidth="85.0" text="REFRESH" />
+      <ListView fx:id="lista" layoutX="22.0" layoutY="30.0" prefHeight="406.0" prefWidth="368.0" />
+      <TextField fx:id="fileOpen" layoutX="22.0" layoutY="495.0" prefHeight="25.0" prefWidth="336.0" promptText="File Path" />
+      <Button fx:id="createDirectoryBtn" layoutX="284.0" layoutY="455.0" mnemonicParsing="false" onAction="#createDirectory" text="CREATE DIR" />
+      <Text layoutX="22.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nikola Babic 1120/15" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" style="-fx-border-color: teal; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UploadController">
+   <children>
+      <Text layoutX="110.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UPLOAD A FILE" textAlignment="CENTER" />
+      <TextField fx:id="filePath" layoutX="14.0" layoutY="47.0" prefHeight="25.0" prefWidth="271.0" promptText="Path to file" />
+      <ComboBox fx:id="combo1" layoutX="75.0" layoutY="102.0" prefWidth="150.0" promptText="Select crypt" />
+      <ComboBox fx:id="combo2" layoutX="75.0" layoutY="150.0" prefWidth="150.0" promptText="Select hash" />
+      <Button fx:id="saveBtn" layoutX="88.0" layoutY="229.0" mnemonicParsing="false" onAction="#uploadFile" prefHeight="25.0" prefWidth="117.0" text="SAVE" />
+   </children>
+</AnchorPane>
